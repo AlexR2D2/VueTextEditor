@@ -1,6 +1,6 @@
 // only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  base: '/vue_02/',
+  base: '/VueTextEditor/',
 } : {}
 
 module.exports = {
