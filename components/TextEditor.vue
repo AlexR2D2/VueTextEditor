@@ -251,7 +251,7 @@ export default {
 
       if (this.isMouseMoved(this.mouse)) {
         // nothing to do
-      } else if (diff > 500) {
+      } else if (diff > 400) {
         const selectionRange = this.getSelectionRange(this.selection)
         if (!selectionRange.collapsed) {
           const clickedRange = this.createSelectionRange()
