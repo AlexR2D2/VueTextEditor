@@ -226,11 +226,11 @@ export default {
       this.fireOperation({key: this.makeid(), description: `<span class="silver">clicked:</span> '${selectedText}'`})
 
       // Создаем спан с синим фоном
-      //var highlightDiv = document.createElement('span');
-      //highlightDiv.style.backgroundColor = 'blue';
-      //highlightDiv.innerHTML = selectedText.replace(/(?:\r\n|\r|\n)/g, '<br />')
-      //selectionRange.deleteContents()
-      //selectionRange.insertNode(highlightDiv)
+      var highlightDiv = document.createElement('span');
+      highlightDiv.style.backgroundColor = 'yellow';
+      highlightDiv.innerHTML = selectedText.replace(/(?:\r\n|\r|\n)/g, '<br />')
+      selectionRange.deleteContents()
+      selectionRange.insertNode(highlightDiv)
 
       this.fireRawContent()
     },
