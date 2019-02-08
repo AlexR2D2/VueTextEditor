@@ -1,6 +1,8 @@
-# text_editor
+# VueTextEdito
 
-> Text Editor
+> Simple text editor. Type text then select it and click on selected.
+
+Online [Demo](https://alexr2d2.github.io/VueTextEditor/)
 
 ## Build Setup
 
